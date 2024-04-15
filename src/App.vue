@@ -20,7 +20,7 @@ import PartNine from './components/HomePage/PartNine.vue'
   <PartFour/>
   <PartFive/>
   <PartSix/>
-  <PartSeven/>
+  <!-- <PartSeven/> -->
   <PartEight/>
   <PartNine/>
 </template>

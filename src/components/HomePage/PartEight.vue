@@ -28,7 +28,7 @@ const links = [
 </script>
 
 <template>
-  <div class="part_eight">
+  <div id="fqa" class="part_eight">
     <div>
       <div class="copyright">
         <SdkIcon name="logo" size=".3704" :style="`margin-right: 30px;`"></SdkIcon>

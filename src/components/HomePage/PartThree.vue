@@ -3,29 +3,29 @@ const featureArray: any = [
   {
     iconName: 'guardian',
     title: 'Guardian',
-    content: `Guardian play the role of a police officer, responsible for judging the quality of the Edge Node's work.`
+    content: `Transmits and relays messages within the network, earning rewards by providing proof of workload.`
   },
   {
     iconName: 'watchDog',
     title: 'WatchDog',
-    content: 'Watch Dog plays the role of a security guard who, along with Guardian, is responsible for verifying that the Edge Node is working correctly in the network.'
+    content: 'Randomly send challenge messages to Edge Nodes to ensure they are functioning properly and maintaining a stable uptime.'
   },
   {
     iconName: 'nodeFlow',
     title: 'EdgeNode',
-    content: 'The Edge Node acts as a messenger, transmitting, relaying, and routing messages.'
+    content: 'Validate the workload proof of Edge Nodes and assess their service quality through the challenge results from WatchDog nodes.'
   },
 ]
 </script>
 
 <template>
-  <div class="part_three">
+  <div id="howItWorks" class="part_three">
     <div class="part_three_title">
       <h1>
         How does our <br class="mobile" />platform work ?
       </h1>
       <p>
-        The SendingNetwork integrates three essential roles for its operation: Container, Indexer, and Checker.
+        SendingNetwork is powered by three types of nodes: Edge Node, WatchDog, and Guardian.
       </p>
     </div>
 
@@ -48,8 +48,7 @@ const featureArray: any = [
           Join WatchDog<br/>Node Sale
         </h2>
         <p>
-          Be a part of the largest node sale and help shape the future of AI and gaming. Get ready to power up the cloud
-          with SendingNetwork!
+          Join the decentralized network to support stable network operations and earn incentives for your contributions.
         </p>
         <a href="">
           <SdkButton style="background: #38CA9F;">Purchase a WatchDog Licence (NFT)</SdkButton>

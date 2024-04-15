@@ -2,8 +2,8 @@
   const icons = ['start', 'lightning', 'wallet']
   const steps = [
     {title: 'Step 1', content: 'Purchase WatchDog License (coming soon)'},
-    {title: 'Step 2', content: 'Download and install Watch Dog, bind Watch Dog license.'},
-    {title: 'Step 3', content: 'Earn, claim, withdraw your token rewards.'},
+    {title: 'Step 2', content: 'Install WatchDog service on your device and run with the NFT pass.'},
+    {title: 'Step 3', content: 'That’s it! Keep it running and earn rewards.'},
   ]
 </script>
 

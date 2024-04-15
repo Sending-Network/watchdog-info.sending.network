@@ -2,15 +2,15 @@
 const cards = [
   {
     title: 'Task',
-    content: 'Exchange verification messages with the network.',
+    content: 'Send verification messages to check the status and availability of Edge nodes within the network.',
   },
   {
     title: 'Reward',
-    content: 'Earn $SEND once the task is completed',
+    content: 'Earn $SEND for your contributions.',
   },
   {
     title: 'Boost Income',
-    content: 'Maximize your rewards by extending the uptime and using optimal bandwidth!',
+    content: 'Boost your rewards by ensuring high uptime and optimizing bandwidth usage!',
   }
 ]
 

@@ -20,7 +20,7 @@ const links = [
 </script>
 
 <template>
-  <div class="part_six">
+  <div class="part_six" id="join">
     <h1>Join the community</h1>
     <p>Come and build a decentralized communication stack with SendingNetwork</p>
     <div>

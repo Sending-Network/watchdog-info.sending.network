@@ -8,10 +8,10 @@ import SdkButton from '../global/SdkButton.vue';
   <div class="part_one">
     <div class="part_one_content">
       <h1>WatchDog Node Sale</h1>
-      <p>Become a member of a highly disruptive decentralized network</p>
+      <p>Challenge the Edge Nodes and Earn Rewards!</p>
       <div class="part_one_button">
         <a href="">
-          <SdkButton >Purchase a WatchDog License (NFT)</SdkButton>
+          <SdkButton >Purchase a WatchDog NFT Pass</SdkButton>
         </a>
         <a href="https://medium.com/@sendinglabs/sendingnetwork-announces-its-watchdog-node-sale-af5dc2f4ad01">
           <SdkButton type="white_border">What is a WatchDog？</SdkButton>
