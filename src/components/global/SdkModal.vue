@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="display: none;">
     <teleport to="body">
       <div v-if="isModalOpen" class="modal-overlay">
         <div class="modal">
