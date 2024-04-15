@@ -1,6 +1,11 @@
 <script setup lang="ts">
-import SdkButton from '../global/SdkButton.vue';
+import { ref } from 'vue';
 
+const modalRef = ref(null);
+
+const commingSoon = () => {
+  modalRef.value && modalRef.value.openModal('Coming soon');
+}
 
 </script>
 
@@ -10,7 +15,7 @@ import SdkButton from '../global/SdkButton.vue';
       <h1>WatchDog Node Sale</h1>
       <p>Challenge the Edge Nodes and Earn Rewards!</p>
       <div class="part_one_button">
-        <a href="">
+        <a href="" @click.prevent="commingSoon">
           <SdkButton >Purchase a WatchDog NFT Pass</SdkButton>
         </a>
         <a href="https://medium.com/@sendinglabs/sendingnetwork-announces-its-watchdog-node-sale-af5dc2f4ad01">
@@ -19,6 +24,7 @@ import SdkButton from '../global/SdkButton.vue';
       </div>
     </div>
     <SdkIcon name="watchDog" size="5.5556"/>
+    <SdkModal ref="modalRef" />
   </div>
 </template>
 
