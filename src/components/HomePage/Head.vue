@@ -1,10 +1,10 @@
 
 <script setup lang="ts">
 const buttons = [
-  { name: 'About', link: '/#about' },
-  { name: 'How it works', link: '/#howItWorks' },
-  { name: 'Join', link: '/#join' },
-  // { name: 'FQA', link: '/#fqa' }
+  { name: 'About', link: '/watchdog-info.sending.network/#about' },
+  { name: 'How it works', link: '/watchdog-info.sending.network/#howItWorks' },
+  { name: 'Join', link: '/watchdog-info.sending.network/#join' },
+  // { name: 'FQA', link: '/watchdog-info.sending.network/#fqa' }
 ];
 </script>
 

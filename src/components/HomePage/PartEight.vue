@@ -20,8 +20,8 @@ const links = [
   {
     title: 'Legal',
     jump_addresses: [
-      {name: 'Privacy Policy', link: '/#'},
-      {name: 'Terms of Service', link: '/#'},
+      {name: 'Privacy Policy', link: '/watchdog-info.sending.network/#'},
+      {name: 'Terms of Service', link: '/watchdog-info.sending.network/#'},
     ]
   }
 ]
