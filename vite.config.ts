@@ -11,5 +11,5 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-  base: 'https://sending-network.github.io/watchdog-info.sending.network/'
+  base: '/watchdog-info.sending.network/'
 })

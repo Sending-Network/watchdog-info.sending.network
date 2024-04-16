@@ -1,5 +1,13 @@
 
 <script setup lang="ts">
+import { ref } from 'vue';
+
+const modalRef = ref(null);
+
+const comingSoon = () => {
+  modalRef.value && modalRef.value.openModal('Coming soon');
+}
+
 const buttons = [
   { name: 'About', link: '/watchdog-info.sending.network/#about' },
   { name: 'How it works', link: '/watchdog-info.sending.network/#howItWorks' },
@@ -10,10 +18,10 @@ const buttons = [
 
 <template>
   <div class="head">
-    <div class="product_icon pc">
+    <a href="https://www.sending.network/" class="product_icon pc">
       <SdkIcon name="logo" size=".3704" :style="`margin-right: 30px;`"></SdkIcon>
       <SdkIcon name="logoLable" size="5.4444"></SdkIcon>
-    </div>
+    </a>
     <div class="product_icon mobile">
       <SdkIcon name="logo" size=".3704" :style="`margin-right: 30px;`"></SdkIcon>
     </div>
@@ -26,12 +34,13 @@ const buttons = [
         </a>
       </template>
 
-      <a href="">
+      <a href="/#" @click.prevent="comingSoon" style="margin-left: 16px;">
         <SdkButton type="white_border">
           WatchDog Node Sale
         </SdkButton>
       </a>
     </div>
+    <SdkModal ref="modalRef" />
 
     <div class="mobile">
       <SdkIcon name="classify" size=".3704"/>

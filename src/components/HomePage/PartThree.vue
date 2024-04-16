@@ -3,15 +3,15 @@ import { ref } from 'vue';
 
 const modalRef = ref(null);
 
-const commingSoon = () => {
+const comingSoon = () => {
   modalRef.value && modalRef.value.openModal('Coming soon');
 }
 
 const featureArray: any = [
   {
     iconName: 'nodeFlow',
-    title: 'EdgeNode',
-    content: 'Validate the workload proof of Edge Nodes and assess their service quality through the challenge results from WatchDog nodes.'
+    title: 'Edge Node',
+    content: 'Transmits and relays messages within the network, earning rewards by providing proof of workload.'
   },
   {
     iconName: 'watchDog',
@@ -21,7 +21,7 @@ const featureArray: any = [
   {
     iconName: 'guardian',
     title: 'Guardian',
-    content: `Transmits and relays messages within the network, earning rewards by providing proof of workload.`
+    content: `Validate the workload proof of Edge Nodes and assess their service quality through the challenge results from WatchDog nodes.`
   },
 ]
 </script>
@@ -58,7 +58,7 @@ const featureArray: any = [
         <p>
           Join the decentralized network to support stable network operations and earn incentives for your contributions.
         </p>
-        <a href="" @click.prevent="commingSoon">
+        <a href="" @click.prevent="comingSoon">
           <SdkButton style="background: #38CA9F;">Purchase a WatchDog NFT Pass</SdkButton>
         </a>
         <div class="footer" />

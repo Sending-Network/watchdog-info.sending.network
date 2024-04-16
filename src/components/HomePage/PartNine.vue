@@ -16,11 +16,11 @@
     <a href="" v-for="item of contactAddress" :key="item.iconName">
       <SdkIcon :name="item.iconName" size=".3704"/>
     </a>
-    <div class="pc">
+    <!-- <div class="pc">
       Crafted with
       <SdkIcon name="heart" size=".3704"/>
       by Spacekayak
-    </div>
+    </div> -->
   </div>
 </template>
 

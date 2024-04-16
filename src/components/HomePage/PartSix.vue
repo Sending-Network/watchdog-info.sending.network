@@ -24,7 +24,7 @@ const links = [
     <h1>Join the community</h1>
     <p>Come and build a decentralized communication stack with SendingNetwork</p>
     <div>
-      <a :href="item.url" v-for="item of links" :key="item.name" >
+      <a :href="item.url" target="_blank" v-for="item of links" :key="item.name" >
         <SdkButton type="black_bg">
           <SdkIcon :name="item.icon" size=".3704"/>
           {{ item.name }}

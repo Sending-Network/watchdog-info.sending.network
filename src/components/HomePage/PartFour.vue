@@ -19,10 +19,10 @@ const cards = [
 <template>
   <div class="part_four">
     <h1>
-      Mine to Earn
+      Challenge to Earn
     </h1>
     <p>
-      Running a WatchDog on SendingNetwork contributes to the decentralization of cloud compute and earn rewards from being a network participant.
+      Operate a WatchDog node on SendingNetwork to support decentralized messaging and earn rewards.
     </p>
     
     <div :class="`part_four_car part_four_car_${i}`" v-for="(item, i) of cards" :key="i">
@@ -74,6 +74,7 @@ const cards = [
     font-size: .3704rem;
     font-weight: 400;
     line-height: 140%;
+    opacity: 0.72;
   }
   .part_four_car{
     position: absolute;

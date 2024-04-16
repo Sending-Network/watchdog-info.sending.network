@@ -13,9 +13,9 @@
       How to run a <br class="mobile"/>
       WatchDog?
     </h1>
-    <p>
+    <!-- <p>
       Running a Sonar NFT on Sending Network contributes to the decentralization of cloud compute and earn rewards from being a network participant.
-    </p>
+    </p> -->
 
     <hr class="pc"/>
     <div class="part_five_icons pc">
@@ -118,6 +118,7 @@
         font-size: 20px;
         font-weight: 400;
         line-height: 140%;
+        opacity: 0.72;
       }
     }
   }

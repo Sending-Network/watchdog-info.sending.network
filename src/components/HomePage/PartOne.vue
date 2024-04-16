@@ -3,7 +3,7 @@ import { ref } from 'vue';
 
 const modalRef = ref(null);
 
-const commingSoon = () => {
+const comingSoon = () => {
   modalRef.value && modalRef.value.openModal('Coming soon');
 }
 
@@ -15,7 +15,7 @@ const commingSoon = () => {
       <h1>WatchDog Node Sale</h1>
       <p>Challenge the Edge Nodes and Earn Rewards!</p>
       <div class="part_one_button">
-        <a href="" @click.prevent="commingSoon">
+        <a href="" @click.prevent="comingSoon">
           <SdkButton >Purchase a WatchDog NFT Pass</SdkButton>
         </a>
         <a href="https://medium.com/@sendinglabs/sendingnetwork-announces-its-watchdog-node-sale-af5dc2f4ad01">
